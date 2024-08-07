@@ -1,0 +1,45 @@
+.cardbox{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.cardImg{
+    flex: 2;
+    display: flex;
+    overflow: hidden;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.cardContext{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cardbox:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.479);
+}
+
+button{
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover{
+    background: #252525;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.527);
+    color: #fff;
+}
